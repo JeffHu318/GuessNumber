@@ -22,6 +22,7 @@
 		B69622131D28FE8A00056933 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B69622161D28FE8A00056933 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B69622181D28FE8A00056933 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B696221E1D28FEFC00056933 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +61,7 @@
 				B69622131D28FE8A00056933 /* Assets.xcassets */,
 				B69622151D28FE8A00056933 /* LaunchScreen.storyboard */,
 				B69622181D28FE8A00056933 /* Info.plist */,
+				B696221E1D28FEFC00056933 /* MyPlayground.playground */,
 			);
 			path = GuessNumber;
 			sourceTree = "<group>";
