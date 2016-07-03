@@ -64,6 +64,14 @@
                                     <action selector="ReplayClick:" destination="BYZ-38-t0r" eventType="touchDown" id="tfI-yN-zOX"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rhr-hw-i2f">
+                                <string key="text">A表示數字對位置對 
+B表示數字對位置錯
+最多猜6次 加油猜吧</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.2088385586" blue="0.28312085739999998" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -77,10 +85,14 @@
                             <constraint firstItem="97F-3k-sFA" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="XMp-IW-bwi"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="97F-3k-sFA" secondAttribute="bottom" constant="137" id="Xxq-um-3Ab"/>
                             <constraint firstItem="3Uz-b4-6mE" firstAttribute="leading" secondItem="Gvu-IM-Y85" secondAttribute="trailing" constant="19" id="Z5h-DU-Lac"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="rhr-hw-i2f" secondAttribute="trailing" constant="42" id="ebJ-ka-c7o"/>
                             <constraint firstItem="Gvu-IM-Y85" firstAttribute="top" secondItem="cIv-ny-DR7" secondAttribute="bottom" constant="14" id="hPs-e6-qCc"/>
                             <constraint firstItem="4CT-li-yLD" firstAttribute="centerX" secondItem="cIv-ny-DR7" secondAttribute="centerX" id="jE2-Kz-857"/>
+                            <constraint firstItem="rhr-hw-i2f" firstAttribute="leading" secondItem="drK-xf-t6I" secondAttribute="leading" id="jkB-5v-SN5"/>
                             <constraint firstItem="drK-xf-t6I" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="lz4-SD-4Dl"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="rhr-hw-i2f" secondAttribute="bottom" constant="35" id="mlZ-JG-Obf"/>
                             <constraint firstItem="4CT-li-yLD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pup-WX-UGn"/>
+                            <constraint firstItem="rhr-hw-i2f" firstAttribute="top" secondItem="97F-3k-sFA" secondAttribute="bottom" constant="33" id="tPZ-pB-md8"/>
                             <constraint firstItem="97F-3k-sFA" firstAttribute="top" secondItem="drK-xf-t6I" secondAttribute="bottom" constant="24" id="tbk-Id-z31"/>
                             <constraint firstItem="97F-3k-sFA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="7" id="xVV-nl-EpD"/>
                         </constraints>
