@@ -125,7 +125,7 @@ class ViewController: UIViewController {
         }
         
         //Put Result
-        var result = "\(NumberA)A\(NumberB)B"
+        let result = "\(NumberA)A\(NumberB)B"
         
         return result
     }
