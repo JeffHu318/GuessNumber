@@ -137,6 +137,7 @@ class ViewController: UIViewController {
             isNumberOk = true
             //Generate Default Answer
             Answer = "\(arc4random() % 10000)"
+            Answer = String(format: "%04d", arc4random() % 10000)
             var tempArray = ["0","1","2","3"]
             
             //assign number into array
